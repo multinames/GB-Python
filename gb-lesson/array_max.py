@@ -1,8 +1,8 @@
 import random
 current = list(range(16))
-#current = random.randint(0, 16)
+random.shuffle(current)
 print(current)
-#current =  [6, 12, 4, 3, 8]
+# current = [6, 12, 4, 3, 8]
 max_index = 0
 n = len(current)
 i = 0
